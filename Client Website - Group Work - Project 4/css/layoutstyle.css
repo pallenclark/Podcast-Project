@@ -1,0 +1,33 @@
+/* Layout & Interface*/
+body {
+width: 90%;
+margin: 0 auto;
+}
+
+main {
+	overflow: scroll;
+}
+
+
+
+nav, footer {
+	background-color: black;
+	padding: 10px 0;
+	margin: 10px;
+}
+
+#feature {
+	background-color: black;
+	height: 300px;
+}
+
+.column1, .column2, .column3, .column4, .column5, .column6, .column7, .column8, .column9 {
+	width: 30%;
+	float: left;
+	background-color: gray;
+	opacity: .4;
+	height: 300px;
+	margin: 1%;
+	
+} 
+
