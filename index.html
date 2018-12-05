@@ -1,57 +1,77 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-	<link rel="stylesheet" href="css/layoutstyle.css">
-
-	<title>Vice Versa - Podcast</title>
+		<title>3 column layout</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-
-
 	<body>
 
-	<nav></nav>
+	<section>	
+		<div id="logo">
 
-	<main>
+		</div>
+		<nav class="mainNav" id="responsiveNav">
+			<a href="#"><h2>All Episodes</h2></a>
+			<a href="#"><h2>About Us</h2></a>
+			<a href="#"><h2>Contact Us</h2></a>
+			<a href="javascript:void(0);" style="font-size: 20px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+	</section>
+		
+		<main>
+
 			<div id="feature">
+				<p>Vice Versa Podcast</p>
 			</div>
 
-			<div class="column1">
-				<img src="">
-
-			</div>
+			<article class="column1">
+				<p>Column One</p>
+			</article>
+			<article class="column2">
+				<p>Column Two</p>
+			</article>
+			<article class="column3">
+				<p>Column Three</p>
+			</article>
 			
-			<div class="column2">				
-			</div>
+			<article class="column1">
+				<p>Column One</p>
+			</article>
+			<article class="column2">
+				<p>Column Two</p>
+			</article>
+			<article class="column3">
+				<p>Column Three</p>
+			</article>
 
-			<div class="column3">
-			</div>
+			<article class="column1">
+				<p>Column One</p>
+			</article>
+			<article class="column2">
+				<p>Column Two</p>
+			</article>
+			<article class="column3">
+				<p>Column Three</p>
+			</article>
 
-			<div class="column4">
-			</div>
+		</main>
 
-			<div class="column5">
-			</div>
-			
-			<div class="column6">				
-			</div>
+		<footer>
+			<p>&copy; Copyright 2018</p>
+		</footer>
 
-			<div class="column7">
-			</div>
+<script>
+function myFunction() {
+var x = document.getElementById("responsiveNav");
+if (x.className === "mainNav") {
+x.className += " responsive";
+} else {
+x.className = "mainNav";
+}
+}
+</script>
 
-			<div class="column8">
-			</div>
-
-			<div class="column9">
-			</div>
-
-
-
-	</main>
-
-		
-		
-	<footer></footer>
 
 	</body>
 </html>
