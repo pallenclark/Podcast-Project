@@ -1,0 +1,89 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-image: url('../images/Home-Page-Background-Image.png');
+	background-size: cover;
+}
+
+main {
+	overflow: auto;
+}
+
+p {
+	font-size: 70px;
+}
+
+.column1, .column2, .column3 {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+			
+
+nav, footer {
+	background-color: black;
+	padding: 10px 0;
+}
+
+article {
+	height: 250px;
+	margin-bottom: 1%;
+	background-color: black;
+}
+
+#feature {
+	height: 250px;
+	margin: 4%;
+}
+
+
+.mainNav {
+				background-color: black;
+				position: sticky;
+				top: 0;
+				width: 100%;
+				z-index: 100;
+				text-align: center;
+				list-style: none;
+			}
+
+.mainNav a {
+				color: white;
+				padding: 18px 20px;
+				text-decoration: none;
+				font-family: Arial;
+				font-size: 20px;
+				display: inline-block;
+			}
+
+.mainNav .icon {
+				display: none;
+			}
+
+			@media screen and (max-width: 600px){
+				.mainNav a {display: none;}
+				.mainNav a.icon {
+					float: right;
+					display: block;
+				}
+			}
+
+			@media screen and (max-width: 600px){
+				.mainNav.responsive {position: relative;}
+				.mainNav.responsive .icon {
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+				.mainNav.responsive a {
+					float: none;
+					display: block;
+					text-align: center;
+				}
+			}
