@@ -19,6 +19,10 @@ p {
 	font-size: 70px;
 }
 
+#columnbox {
+	margin: 25%;
+}
+
 .column1, .column2, .column3 {
 	width: 31.3%;
 	float: left;
@@ -38,8 +42,8 @@ article {
 }
 
 #feature {
-	height: 250px;
-	margin: 4%;
+	
+	margin: 15%;
 }
 
 
