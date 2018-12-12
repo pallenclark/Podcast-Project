@@ -2,6 +2,7 @@
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	text-align: center;
+	box-sizing: border-box;
 }
 
 body {
@@ -15,24 +16,60 @@ main {
 	overflow: auto;
 }
 
-p {
+h1 {
 	font-size: 80px;
 }
 
-#columnbox {
-	margin: 20%;
+p {
+	font-size: 50px;
 }
 
-.column1, .column2, .column3 {
-	width: 27%;
-	float: left;
-	margin: 2%;
+@media screen and (max-width: 800px) {
+	h1{
+		font-size: 70px;
+	}
+
+ p {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+  	font-size: 50px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
+
+
+#columnbox {
+	margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+        
+}
+
+.column{
+	margin: 3%;
+    flex: 25%;
+    max-width: 25%;
+}
+
+.column img {
+   margin-top: 5px;
+   vertical-align: middle;
+   width: 100%;
 }
 			
 
 nav, footer {
 	background-color: black;
-	padding: 10px 0;
+	padding: 2px 0;
+
 }
 
 article {
@@ -50,13 +87,35 @@ a {
 
 #see-more {
 	background-color: red;
-	width: 15%;
-	padding: 1px;
+	text-align: center;
+	width: 20%;
+	padding: 3px;
 	margin-top: 50px;
 	margin-bottom: 60px;
 	margin-left: 41%
 }
 
+@media screen and (max-width: 600px) {
+  #see-more {
+    font-size: 12px;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #see-more {
+    font-size: 15px;
+    width: 30%;
+  }
+}
+
+.logo {
+	float: left;
+	max-width: 100px;
+	max-height: 100px;
+	padding: 20px;
+
+}
 
 .mainNav {
 				background-color: black;
@@ -81,12 +140,12 @@ a {
 				display: none;
 			}
 
-			@media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
 				.mainNav a {display: none;}
 				.mainNav a.icon {
 					float: right;
 					display: block;
-				}
+				}			
 			}
 
 			@media screen and (max-width: 600px){
@@ -102,3 +161,17 @@ a {
 					text-align: center;
 				}
 			}
+
+ @media screen and (max-width: 800px){
+	.column {
+    	flex: 50%;
+    	max-width: 50%;
+    }
+}
+
+ @media screen and (max-width: 600px){
+    .column {
+    	flex: 100%;
+    	max-width: 100%;
+	}
+}
