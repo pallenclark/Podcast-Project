@@ -80,8 +80,21 @@ a {
 	text-decoration: none;
 }
 
+
+
+.content {
+	font-size: 15px;
+	margin: 80px;
+    padding: 20px;
+    width: 60%;
+    position: relative;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.2);
+}
+
+
 #feature {
-	margin: 18%;
+	margin: 10%;
 	
 }
 
@@ -93,6 +106,10 @@ a {
 	margin-top: 50px;
 	margin-bottom: 60px;
 	margin-left: 41%
+}
+
+#playlist {
+	margin-bottom: 200px;
 }
 
 @media screen and (max-width: 600px) {
@@ -111,8 +128,7 @@ a {
 
 .logo {
 	float: left;
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 200px;
 	padding: 20px;
 
 }
