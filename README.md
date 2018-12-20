@@ -1,10 +1,13 @@
 # Podcast-Project
-XD-Wireframe/Prototype
+XD-WIREFRAME/PROTOTYPE
+
 https://xd.adobe.com/view/67fe200d-25f9-46da-4dfc-ea14fd116802-11cf/
 
-Recent Changes Made:
+
+RECENT CHANGES:
 
 DEC.20: (Annie)
+
 Input file names in pages; 
 
 Adjusted styles to match pages as a whole;
@@ -12,11 +15,15 @@ Adjusted styles to match pages as a whole;
 Re-made Contact Form to match prototype;
 
 
+
 DEC.19:
+
 Added About Us and Contact Us pages;
 
 
+
 DEC.17 (Annie):
+
 Sized down Logo image;
 
 Changed “Home” to red text color;
@@ -32,7 +39,9 @@ Cleaned up current html files;
 Added episode 2-9 pages;
 
 
-Need to do:
+
+NEED TO DO: 
+
 Fix layouts for phone/tablet sizes;
 
 Have a workable contact form;
